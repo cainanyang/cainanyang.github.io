@@ -12,6 +12,10 @@ TIMEZONE = 'Asia/Shanghai'
 
 DEFAULT_LANG = u'zh'
 
+DEFAULT_METADATA = {
+    'status': 'draft',
+}
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -37,3 +41,4 @@ DEFAULT_PAGINATION = 100
 GOOGLE_ANALYTICS = 'UA-87012222-1'
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
